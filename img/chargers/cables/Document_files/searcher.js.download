@@ -1,0 +1,77 @@
+let productInputValue
+
+
+class Searcher {
+    getSearchInput() {
+        /*  const input = document.querySelector('.input-search') */
+        navItemsContainer.addEventListener('click', e => {
+            if (e.target.classList.contains('search-products')) {
+                this.searchProduct();
+            }
+        })
+        navItemsContainer.addEventListener('keyup', e => {
+            if (e.keyCode === 13) {
+                location = "searching-page.html"
+                this.searchProduct();
+            }
+        })
+
+    }
+
+    /*   keyUp(event) {
+          event.addEventListener('keyup', e => {
+              if (e.keyCode === 13) {
+                  this.searchProduct()
+              }
+          })
+      } */
+
+    searchProduct() {
+        const searchInput = document.querySelector('.input-search')
+        productInputValue = searchInput.value
+        console.log(productInputValue)
+        Store.saveInputValue(productInputValue)
+        /* this.displayFoundedProducts(productInputValue) */
+    }
+
+    /* displayFoundedProducts(productInputValue) {
+        Store.getAllProducts(productInputValue)
+    } */
+}
+
+class searchFilter {
+    async getAllProducts() {
+        const allProductsFile = await fetch("unsortedProducts.json");
+        const data = await allProductsFile.json();
+        let objectProducts = data.productItems
+        objectProducts = objectProducts.map(item => {
+            const {
+                id
+            } = item.sys
+
+            const {
+                title,
+                img,
+                price
+            } = item.fields
+
+            return {
+                id,
+                title,
+                img,
+                price
+            }
+
+        })
+        return objectProducts
+    }
+}
+
+
+
+
+/* class StoreSearch {
+    static saveInputValue(productInfo) {
+        localStorage.setItem('searchedProduct', JSON.stringify(productInfo))
+    }
+} */

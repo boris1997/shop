@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.1/css/all.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/products/products.css" />
+    <link rel="stylesheet" href="/css/products/main-products-category/main-products-category.css" />
+    <link rel="stylesheet" href="/css/products/main-products-category/main-products-items/main-products-items.css" />
+    <link rel="stylesheet" href="/css/fonts.css">
+    <title>Document</title>
+</head>
+
+<body id="body">
+    <script src="/js/body.js">
+    </script>
+
+    <script>
+        LoadPage('/phones/phones.html','СМАРТФОНЫ', '__Samsung', 'samsung.html', 'SAMSUNG', "samsung-galaxy-note-9.html", 'SAMSUNG Galaxy note 9')
+        class Products {
+            async getIphone7() {
+                try {
+                    const result = await fetch("/Products.json");
+                    const data = await result.json();
+                    console.log(data)
+                    let products = data.productItems;
+
+                    products = products.filter(item => {
+                        if (item.fields.model === 'Samsung galaxy note 9') {
+                            return products
+                        }
+                    })
+                    products = products.map(item => {
+                        let {
+                            id
+                        } = item.sys;
+                        let {
+                            title,
+                            price,
+                            img
+                        } = item.fields;
+                        return {
+                            id,
+                            title,
+                            price,
+                            img
+                        };
+                    });
+                    return products;
+                } catch (error) {
+                    console.log(error);
+                }
+            }
+        }
+
+
+        function displayProducts(products) {
+            const iphoneItems = document.querySelector(".__main-products-items");
+            let result = "";
+            products.forEach(e => {
+                result += `
+                <div class="__main-item-product ">
+                     <a href="iphone7.html">
+                         <img src=${e.img} alt="">
+                         <h2>${e.title}</h2>
+                     </a>
+                     <div class="order">
+                         <div class="addToBasket">
+                             <span class="price">${e.price} RUB</span>
+                             <button class="bag-btn" data-id=${e.id}>
+                             <i class="fas fa-cart-plus fa-2x" ></i>
+                            </button>
+                         </div>
+                         <a class="fast-purchase btn" data-id=${e.id
+                    } href="">купить в 1 клик</a>
+                     </div>
+
+                 </div>
+             `;
+            });
+            iphoneItems.innerHTML = result;
+        }
+    </script>
+    <script src="/js/script.js"></script>
+    <script src="/js/searcher.js"></script>
+    <script src="/js/products.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>

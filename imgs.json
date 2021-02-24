@@ -1,0 +1,30 @@
+{
+    "iphone7black": [{
+            "num": 1,
+            "img": "img/iphone-7/iphone-7-black.png"
+        },
+        {
+            "num": 2,
+            "img": "img/iphone-7/iphone-7-black2.png"
+        },
+        {
+            "num": 3,
+            "img": "img/iphone-7/iphone-7-black3.png"
+        }
+    ],
+    "iphone7silver": [{
+            "num": 1,
+            "img": "img/iphone-7/iphone-7-black.png"
+        },
+        {
+            "num": 2,
+            "img": "img/iphone-7/iphone-7-black2.png"
+        },
+        {
+            "num": 3,
+            "img": "img/iphone-7/iphone-7-black3.png"
+        }
+    ]
+
+
+}

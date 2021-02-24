@@ -1,0 +1,72 @@
+              <li>Samsung Galaxy S10e</li>
+                                        <li>Samsung Galaxy note 8</li>
+                                        <li>Samsung Galaxy note 9</li>
+                                    </ul>
+                                </li>
+                                <li>Xiaomi<i class="fas fa-caret-right"></i>
+                                    <ul>
+                                        <li>Xaiomi mi a2</li>
+                                        <li>Xaiomi mi a2 lite</li>
+                                        <li>Xaiomi redmi 6a</li>
+                                        <li>Xaiomi redmi 7</li>
+                                        <li>Xaiomi redmi note 6 pro</li>
+                                        <li>Xaiomi redmi note 7</li>
+                                        <li>Xiaomi mi 8</li>
+                                        <li>Xiaomi mi 8 lite</li>
+                                        <li>Хiаоми Mi 8 se</li>
+                                        <li>Samsung Galaxy note 9</li>
+                                    </ul>
+                                </li>
+                            </ul> -->
+                        </li>
+
+                    </ul>
+                    <div class="search-btn __nav-item">
+                        <img class="search-icon" src="/img/search-icon.png" alt="">
+                    </div>
+
+                    <!-- <div class="search-engine">
+
+                            <input class="input-search" placeholder="поиск" type="text">
+                            <button class="search-products">Найти</button>
+                            <img class="close-engine" src="/img/fa-times-white.png" alt="">
+                        </div> -->
+
+                    <div class="cart">
+                        <a class="shopping-cart" href="#"> <img class="fa-shopping-cart" src="/img/cart-icon.png"
+                                alt=""></a>
+
+                        <div class="total-sum-container">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="cart-popup">
+        <div class="cart-popup-content">
+            <img src="/img/fa-times.png" alt="" class="fa-times" />
+            <h1 class="cart-popup-header">Корзина</h1>
+            <div class="cart-popup-content-items">
+
+            </div>
+            <div class="cart-popup-content-footer">
+                <!--  <h3>Итоговая сумма : $ <span class="cart-total">0</span> </h3>
+                <button class="clear-cart">Очистить корзину</button> -->
+                <!-- <button class="confirm-order">Оформить заказ</button> -->
+            </div>
+
+        </div>
+    </div>
+
+    <div id="slider">
+        <div class="img-slider"><img src="/img/Path_10.png" alt=""></div>
+        <div class="slider-main">
+            <div class="slider-content __show-slider">
+                <div class="slider-items">
+
+                    <img src="/img/case-png.png" alt="">
+                    <div class="items-info">
+                        <h1>чехлы с гравировкой ma

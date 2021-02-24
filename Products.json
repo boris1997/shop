@@ -1,0 +1,2610 @@
+{
+  "productItems": [{
+      "sys": {
+        "id": 1
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "title": "iPhone 7 черный 32GB",
+        "model": "iPhone 7",
+        "price": 32000,
+        "img": "/img/iphone-7/iphone-7-black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 2
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7",
+        "title": "iPhone 7 черный 128GB",
+        "price": 36000,
+        "img": "/img/iphone-7/iphone-7-black.png"
+      }
+    },
+
+    {
+      "sys": {
+        "id": 3
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7",
+        "title": "iPhone 7 серебрянный 32GB",
+        "price": 32000,
+        "img": "/img/iphone-7/iphone-7-silver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 4
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7",
+        "title": "iPhone 7 серебрянный 128GB",
+        "price": 36000,
+        "img": "/img/iphone-7/iphone-7-silver.png"
+      }
+    },
+
+    {
+      "sys": {
+        "id": 5
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7",
+        "title": "iPhone 7 золотой 32GB",
+        "price": 32000,
+        "img": "/img/iphone-7/iphone-7-gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 6
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7",
+        "title": "iPhone 7 золотой 128GB",
+        "price": 36000,
+        "img": "/img/iphone-7/iphone-7-gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 7
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7",
+        "title": "iPhone 7 plus черный 32GB",
+        "price": 32000,
+        "img": "/img/iphone-7+/iphone-7-plus-or.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 8
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7",
+        "title": "iPhone 7 plus черный 128GB",
+        "price": 36000,
+        "img": "/img/iphone-7+/iphone-7-plus-or.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 9
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7",
+        "title": "iPhone 7 plus черный 256GB",
+        "price": 40000,
+        "img": "/img/iphone-7+/iphone-7-plus-or.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 10
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7 +",
+        "title": "iPhone 7 plus серебрянный 32GB",
+        "price": 32000,
+        "img": "/img/iphone-7+/iphone-7-plus-silver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 11
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7 +",
+        "title": "iPhone 7 plus серебрянный 128GB",
+        "price": 36000,
+        "img": "/img/iphone-7+/iphone-7-plus-silver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 12
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7 +",
+        "title": "iPhone 7 plus серебрянный 256GB",
+        "price": 40000,
+        "img": "/img/iphone-7+/iphone-7-plus-silver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 13
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7 +",
+        "title": "iPhone 7 plus золотой 32GB",
+        "price": 32000,
+        "img": "/img/iphone-7+/iphone-7-plus-gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 14
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7 +",
+        "title": "iPhone 7 plus золотой 128GB",
+        "price": 36000,
+        "img": "/img/iphone-7+/iphone-7-plus-gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 15
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 7 +",
+        "title": "iPhone 7 plus золотой 256GB",
+        "price": 32000,
+        "img": "/img/iphone-7+/iphone-7-plus-gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 16
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8",
+        "title": "iPhone 8 черный 64GB",
+        "price": 35000,
+        "img": "/img/iphone-8/iphone-8-black.png"
+      }
+    },
+
+    {
+      "sys": {
+        "id": 17
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8",
+        "title": "iPhone 8 черный 256GB",
+        "price": 43000,
+        "img": "/img/iphone-8/iphone-8-black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 18
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8",
+        "title": "iPhone 8 серебрянный 64GB",
+        "price": 35000,
+        "img": "/img/iphone-8/iphone-8-silver.png"
+      }
+    },
+
+    {
+      "sys": {
+        "id": 19
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8",
+        "title": "iPhone 8 серебрянный 256GB",
+        "price": 43000,
+        "img": "/img/iphone-8/iphone-8-silver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 20
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8",
+        "title": "iPhone 8 золотой 64GB",
+        "price": 35000,
+        "img": "/img/iphone-8/iphone-8-gold.png"
+      }
+    },
+
+    {
+      "sys": {
+        "id": 21
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8",
+        "title": "iPhone 8 золотой 256GB",
+        "price": 43000,
+        "img": "/img/iphone-8/iphone-8-gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 22
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8 +",
+        "title": "iPhone 8 plus черный 64GB",
+        "price": 41000,
+        "img": "/img/iphone-8+/iphone-8-plus.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 23
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8 +",
+        "title": "iPhone 8 plus черный 256GB",
+        "price": 43000,
+        "img": "/img/iphone-8+/iphone-8-plus.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 24
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8 +",
+        "title": "iPhone 8 plus серебрянный 64GB",
+        "price": 35000,
+        "img": "/img/iphone-8+/iphone-8-plusSilver.png"
+      }
+    },
+
+    {
+      "sys": {
+        "id": 25
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8 +",
+        "title": "iPhone 8 plus серебрянный 256GB",
+        "price": 43000,
+        "img": "/img/iphone-8+/iphone-8-plusSilver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 26
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone 8 +",
+        "title": "iPhone 8 plus золотой 64GB",
+        "price": 35000,
+        "img": "/img/iphone-8+/iphone-8-plusGold.png"
+      }
+    },
+
+    {
+      "sys": {
+        "id": 27
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone X",
+        "title": "iPhone X золотой 256GB",
+        "price": 43000,
+        "img": "/img/iphone-8+/iphone-8-plusGold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 28
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone X",
+        "title": "iPhone X серебрянный 64GB",
+        "price": 35000,
+        "img": "/img/iphone-x/iphone-x.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 29
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone X",
+        "title": "iPhone X серебрянный 256GB",
+        "price": 39000,
+        "img": "/img/iphone-x/iphone-x.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 30
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone X",
+        "title": "iPhone X серый космос 64GB",
+        "price": 39000,
+        "img": "/img/iphone-x/iphone-x-spaceGray.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 31
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone X",
+        "title": "iPhone X серый космос 256GB",
+        "price": 39000,
+        "img": "/img/iphone-x/iphone-x-spaceGray.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 32
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR черный 64GB",
+        "price": 35000,
+        "img": "/img/iphone-xr/iphone-xr.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 33
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR черный 128GB",
+        "price": 39000,
+        "img": "/img/iphone-xr/iphone-xr.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 34
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR черный 256GB",
+        "price": 43000,
+        "img": "/img/iphone-xr/iphone-xr.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 35
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR белый 64GB",
+        "price": 35000,
+        "img": "/img/iphone-xr/iphone-xr-white.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 36
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR белый 128GB",
+        "price": 39000,
+        "img": "/img/iphone-xr/iphone-xr-white.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 37
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR белый 256GB",
+        "price": 43000,
+        "img": "/img/iphone-xr/iphone-xr-white.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 38
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR красный 64GB",
+        "price": 35000,
+        "img": "/img/iphone-xr/iphone-xr-red.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 39
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR красный 128GB",
+        "price": 39000,
+        "img": "/img/iphone-xr/iphone-xr-red.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 40
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR красный 256GB",
+        "price": 43000,
+        "img": "/img/iphone-xr/iphone-xr-red.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 41
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR голубой 64GB",
+        "price": 43000,
+        "img": "/img/iphone-xr/iphone-xr-blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 42
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR голубой 128GB",
+        "price": 43000,
+        "img": "/img/iphone-xr/iphone-xr-blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 43
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR голубой 256GB",
+        "price": 43000,
+        "img": "/img/iphone-xr/iphone-xr-blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 44
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR желтый 64GB",
+        "price": 43000,
+        "img": "/img/iphone-xr/iphone-xr-yellow.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 45
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XR",
+        "title": "iPhone XR желтый 128GB",
+        "price": 43000,
+        "img": "/img/iphone-xr/iphone-xr-yellow.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 46
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS",
+        "title": "iPhone XS серый космос 64GB",
+        "price": 35000,
+        "img": "/img/iphone-xs/iphone-xs.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 47
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS",
+        "title": "iPhone XS серый космос 256B",
+        "price": 39000,
+        "img": "/img/iphone-xs/iphone-xs.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 48
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS",
+        "title": "iPhone XS серый космос 512GB",
+        "price": 43000,
+        "img": "/img/iphone-xs/iphone-xs.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 49
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS",
+        "title": "iPhone XS серебряный 64GB",
+        "price": 35000,
+        "img": "/img/iphone-xs/iphone-xs-silver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 50
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS",
+        "title": "iPhone XS серебряный 256GB",
+        "price": 39000,
+        "img": "/mg/iphone-xs/iphone-xs-silver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 51
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS",
+        "title": "iPhone XS серебряный 512GB",
+        "price": 43000,
+        "img": "/img/iphone-xs/iphone-xs-silver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 52
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS",
+        "title": "iPhone XS золотой 64GB",
+        "price": 35000,
+        "img": "/img/iphone-xs/iphone-xs-gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 53
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS",
+        "title": "iPhone XS золотой 256GB",
+        "price": 39000,
+        "img": "/img/iphone-xs/iphone-xs-gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 54
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS",
+        "title": "iPhone XS золотой 512GB",
+        "price": 43000,
+        "img": "/img/iphone-xs/iphone-xs-gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 55
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS Max",
+        "title": "iPhone XS Max серый космос 64GB",
+        "price": 35000,
+        "img": "/img/iphone-xs-max/iphone-xs-max.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 56
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS Max",
+        "title": "iPhone XS Max серый космос 256B",
+        "price": 39000,
+        "img": "/img/iphone-xs-max/iphone-xs-max.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 57
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS Max",
+        "title": "iPhone XS Max серый космос 512GB",
+        "price": 43000,
+        "img": "/img/iphone-xs-max/iphone-xs-max.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 58
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS Max",
+        "title": "iPhone XS Max серебряный 64GB",
+        "price": 35000,
+        "img": "/img/iphone-xs-max/iphone-xs-maxSilver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 59
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS Max",
+        "title": "iPhone XS Max серебряный 256GB",
+        "price": 39000,
+        "img": "/img/iphone-xs-max/iphone-xs-maxSilver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 60
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS Max",
+        "title": "iPhone XS Max серебряный 512GB",
+        "price": 43000,
+        "img": "/img/iphone-xs-max/iphone-xs-maxSilver.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 61
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS Max",
+        "title": "iPhone XS Max золотой 64GB",
+        "price": 35000,
+        "img": "/img/iphone-xs-max/iphone-xs-maxGold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 62
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS Max",
+        "title": "iPhone XS Max золотой 256GB",
+        "price": 39000,
+        "img": "/img/iphone-xs-max/iphone-xs-maxGold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 63
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "iPhone XS Max",
+        "title": "iPhone XS Max золотой 512GB",
+        "price": 43000,
+        "img": "/img/iphone-xs-max/iphone-xs-maxGold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 64
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s8",
+        "title": "Samsung galaxy s8 черный бриллиант 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s8/samsung-galaxy-s8grayBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 65
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s8",
+        "title": "Samsung galaxy s8 синий коралл 64GB",
+        "price": 39000,
+        "img": "/img/samsung-galaxy-s8/samsung-galaxy-s8blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 66
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s8",
+        "title": "Samsung galaxy s8 мистический аметист 64GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-s8/samsung-galaxy-s8grayAmetist.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 67
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s8",
+        "title": "Samsung galaxy s8 жёлтый коралл 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s8/samsung-galaxy-s8yellow.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 68
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s8+",
+        "title": "Samsung galaxy s8+ черный бриллиант 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s8+/samsung-galaxy-s8+grayBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 69
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s8+",
+        "title": "Samsung galaxy s8+ синий коралл 64GB",
+        "price": 39000,
+        "img": "/img/samsung-galaxy-s8+/samsung-galaxy-s8+blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 70
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s8+",
+        "title": "Samsung galaxy s8+ мистический аметист 64GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-s8+/samsung-galaxy-s8+grayAmetist.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 71
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s8+",
+        "title": "Samsung galaxy s8+ жёлтый коралл 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s8+/samsung-galaxy-s8+yellow.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 72
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 черный 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 73
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 черный 128",
+        "price": 39000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 74
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 черный 256GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 75
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 голубой коралл 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 76
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 голубой коралл 128GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 77
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 голубой коралл 256GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 78
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 титан 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Titan.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 79
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 титан 128GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Titan.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 80
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 титан 256GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Titan.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 81
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 золотой 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 82
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 золотой 128GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 83
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9",
+        "title": "Samsung galaxy s9 золотой 256GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 84
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ черный 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 85
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ черный 128GB",
+        "price": 39000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 86
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ черный 256GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 87
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ голубой коралл 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 88
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ голубой коралл 128GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 89
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ голубой коралл 256GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 90
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ титан 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Titan.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 91
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ титан 128GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Titan.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 92
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ титан 256GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Titan.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 93
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ золотой 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 94
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ золотой 128GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 95
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s9+",
+        "title": "Samsung galaxy s9+ золотой 256GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s9/samsung-galaxy-s9Gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 96
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s10",
+        "title": "Samsung galaxy s10 оникс 128GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s10/samsung-galaxy-s10-onix.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 97
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s10",
+        "title": "Samsung galaxy s10 перламутр 128GB",
+        "price": 39000,
+        "img": "/img/samsung-galaxy-s10/samsung-galaxy-s10-perlamutr.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 98
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s10",
+        "title": "Samsung galaxy s10 аквамарин 128GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-s10/samsung-galaxy-s10-aqua.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 99
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s10+",
+        "title": "Samsung galaxy s10+ оникс 128GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s10/samsung-galaxy-s10-onix.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 100
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s10+",
+        "title": "Samsung galaxy s10+ перламутр 128GB",
+        "price": 39000,
+        "img": "/img/samsung-galaxy-s10/samsung-galaxy-s10-perlamutr.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 101
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s10+",
+        "title": "Samsung galaxy s10+ аквамарин 128GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-s10/samsung-galaxy-s10-aqua.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 102
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s10e",
+        "title": "Samsung galaxy s10e оникс 128GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-s10e/samsung-galaxy-S10e-onix.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 103
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s10e",
+        "title": "Samsung galaxy s10e аквамарин 128GB",
+        "price": 39000,
+        "img": "/img/samsung-galaxy-s10e/samsung-galaxy-S10e-Aqua.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 104
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s10e",
+        "title": "Samsung galaxy s10e цитрус 128GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-s10e/samsung-galaxy-S10e-citrus.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 105
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy s10e",
+        "title": "Samsung galaxy s10e перламутр 128GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-s10e/samsung-galaxy-S10e-Perlamutr.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 106
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy note 8",
+        "title": "Samsung galaxy note 8 черный бриллиант 64GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-note-8/samsung-galaxy-note-8.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 107
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy note 8",
+        "title": "Samsung galaxy note 8 синий сапфир 64GB",
+        "price": 39000,
+        "img": "/img/samsung-galaxy-note-8/samsung-galaxy-note-8Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 108
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy note 8",
+        "title": "Samsung galaxy note 8 желтый тапаз 64GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-note-8/samsung-galaxy-note-8yellow.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 109
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy note 9",
+        "title": "Samsung galaxy note 9 черный 128GB",
+        "price": 35000,
+        "img": "/img/samsung-galaxy-note-9/samsung-galaxy-note-9.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 110
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy note 9",
+        "title": "Samsung galaxy note 9 черный 512GB",
+        "price": 39000,
+        "img": "/img/samsung-galaxy-note-9/samsung-galaxy-note-9.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 111
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy note 9",
+        "title": "Samsung galaxy note 9 синий океан 128GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-note-9/samsung-galaxy-note-9blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 112
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy note 9",
+        "title": "Samsung galaxy note 9 синий океан 512GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-note-9/samsung-galaxy-note-9blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 113
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy note 9",
+        "title": "Samsung galaxy note 9 медь 128GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-note-9/samsung-galaxy-note-9copper.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 114
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Samsung galaxy note 9",
+        "title": "Samsung galaxy note 9 медь 64GB",
+        "price": 43000,
+        "img": "/img/samsung-galaxy-note-9/samsung-galaxy-note-9copper.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 115
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2 Lite",
+        "title": "Xiaomi Mi A2 Lite синий 3GB/32GB",
+        "price": 35000,
+        "img": "/img/Xaiomi-mi-a2-lite/Xiaomi-mi-a2-liteBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 116
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2 Lite",
+        "title": "Xiaomi Mi A2 Lite синий 4GB/64GB",
+        "price": 39000,
+        "img": "/img/Xaiomi-mi-a2-lite/Xiaomi-mi-a2-liteBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 117
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2 Lite",
+        "title": "Xiaomi Mi A2 Lite черный 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2-lite/Xiaomi-mi-a2-liteBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 118
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2 Lite",
+        "title": "Xiaomi Mi A2 Lite черный 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2-lite/Xiaomi-mi-a2-liteBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 119
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2 Lite",
+        "title": "Xiaomi Mi A2 Lite золотой 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2-lite/Xiaomi-mi-a2-liteGold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 120
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2 Lite",
+        "title": "Xiaomi Mi A2 Lite золотой 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2-lite/Xiaomi-mi-a2-liteGold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 121
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2",
+        "title": "Xiaomi Mi A2 синий 4GB/32GB",
+        "price": 35000,
+        "img": "/img/Xaiomi-mi-a2/Xiaomi-mi-a2Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 122
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2",
+        "title": "Xiaomi Mi A2 синий 4GB/64GB",
+        "price": 39000,
+        "img": "/img/Xaiomi-mi-a2/Xiaomi-mi-a2Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 123
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2",
+        "title": "Xiaomi Mi A2 синий 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2/Xiaomi-mi-a2Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 124
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2",
+        "title": "Xiaomi Mi A2 черный 4GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2/Xiaomi-mi-a2black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 125
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2",
+        "title": "Xiaomi Mi A2 черный 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2/Xiaomi-mi-a2black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 126
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2",
+        "title": "Xiaomi Mi A2 черный 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2/Xiaomi-mi-a2black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 127
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2",
+        "title": "Xiaomi Mi A2 золотой 4GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2/Xiaomi-mi-a2Gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 128
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2",
+        "title": "Xiaomi Mi A2 золотой 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2/Xiaomi-mi-a2Gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 129
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Mi A2",
+        "title": "Xiaomi Mi A2 золотой 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-mi-a2/Xiaomi-mi-a2Gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 130
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 6a",
+        "title": "Xiaomi Redmi 6a синий 2GB/16GB",
+        "price": 35000,
+        "img": "/img/Xaiomi-redmi-6a/Xaiomi-redmi-6aBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 131
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 6a",
+        "title": "Xiaomi Redmi 6a синий 3GB/32GB",
+        "price": 39000,
+        "img": "/img/Xaiomi-redmi-6a/Xaiomi-redmi-6aBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 132
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 6a",
+        "title": "Xiaomi Redmi 6a черный 2GB/16GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-6a/Xaiomi-redmi-6aBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 133
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 6a",
+        "title": "Xiaomi Redmi 6a черный 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-6a/Xaiomi-redmi-6aBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 134
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 6a",
+        "title": "Xiaomi Redmi 6a золотой 2GB/16GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-6a/Xaiomi-redmi-6aGold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 135
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 6a",
+        "title": "Xiaomi Redmi 6a золотой 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-6a/Xaiomi-redmi-6aGold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 136
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 7",
+        "title": "Xiaomi Redmi 7 синий 2GB/16GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-7/Xiaomi-Redmi-7-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 137
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 7",
+        "title": "Xiaomi Redmi 7 синий 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-7/Xiaomi-Redmi-7-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 138
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 7",
+        "title": "Xiaomi Redmi 7 синий 3GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-7/Xiaomi-Redmi-7-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 139
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 7",
+        "title": "Xiaomi Redmi 7 черный 2GB/16GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-7/Xiaomi-Redmi-7-Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 140
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 7",
+        "title": "Xiaomi Redmi 7 черный 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-7/Xiaomi-Redmi-7-Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 141
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 7",
+        "title": "Xiaomi Redmi 7 черный 3GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-7/Xiaomi-Redmi-7-Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 142
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 7",
+        "title": "Xiaomi Redmi 7 красный 2GB/16GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-7/Xiaomi-Redmi-7-red.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 143
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 7",
+        "title": "Xiaomi Redmi 7 красный 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-7/Xiaomi-Redmi-7-red.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 144
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi 7",
+        "title": "Xiaomi Redmi 7 красный 3GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-7/Xiaomi-Redmi-7-red.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 145
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 7",
+        "title": "Xiaomi Redmi note 7 синий 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note-7/Xiaomi-Redmi-note7-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 146
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 7",
+        "title": "Xiaomi Redmi note 7 синий 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note-7/Xiaomi-Redmi-note7-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 147
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 7",
+        "title": "Xiaomi Redmi note 7 синий 4GB/128GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note-7/Xiaomi-Redmi-note7-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 148
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 7",
+        "title": "Xiaomi Redmi note 7 черный 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note-7/Xiaomi-Redmi-note7-Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 149
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 7",
+        "title": "Xiaomi Redmi note 7 черный 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note-7/Xiaomi-Redmi-note7-Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 150
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 7",
+        "title": "Xiaomi Redmi note 7 черный 4GB/128GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note-7/Xiaomi-Redmi-note7-Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 151
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 7",
+        "title": "Xiaomi Redmi note 7 красный 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note-7/Xiaomi-Redmi-note7-red.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 152
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 7",
+        "title": "Xiaomi Redmi note 7 красный 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note-7/Xiaomi-Redmi-note7-red.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 153
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 7",
+        "title": "Xiaomi Redmi note 7 красный 4GB/128GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note-7/Xiaomi-Redmi-note7-red.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 154
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 6 pro",
+        "title": "Xiaomi Redmi note 6 pro синий 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note6pro/xiaomi-redmi-note6proBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 155
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 6 pro",
+        "title": "Xiaomi Redmi note 6 pro синий 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note6pro/xiaomi-redmi-note6proBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 156
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 6 pro",
+        "title": "Xiaomi Redmi note 6 pro черный 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note6pro/xiaomi-redmi-note6proBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 157
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 6 pro",
+        "title": "Xiaomi Redmi note 6 pro черный 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note6pro/xiaomi-redmi-note6proBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 158
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 6 pro",
+        "title": "Xiaomi Redmi note 6 pro розовый 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note6pro/xiaomi-redmi-note6proPink.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 159
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi note 6 pro",
+        "title": "Xiaomi Redmi note 6 pro розовый 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xaiomi-redmi-note6pro/xiaomi-redmi-note6proPink.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 160
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi Go",
+        "title": "Xiaomi Redmi Go синий 1GB/8GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-Redmi-Go/Xiaomi-Redmi-GoBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 161
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi Go",
+        "title": "Xiaomi Redmi Go синий 1GB/8GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-Redmi-Go/Xiaomi-Redmi-GoBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 162
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi Go",
+        "title": "Xiaomi Redmi Go черный 2GB/16GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-Redmi-Go/Xiaomi-Redmi-GoBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 163
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi Redmi Go",
+        "title": "Xiaomi Redmi Go черный 2GB/16GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-Redmi-Go/Xiaomi-Redmi-GoBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 164
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Lite",
+        "title": "Xiaomi mi 8 Lite синий 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8-lite/Xiaomi-mi8lite-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 165
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Lite",
+        "title": "Xiaomi mi 8 Lite синий 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8-lite/Xiaomi-mi8lite-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 166
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Lite",
+        "title": "Xiaomi mi 8 Lite синий 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8-lite/Xiaomi-mi8lite-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 167
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Lite",
+        "title": "Xiaomi mi 8 Lite черный 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8-lite/Xiaomi-mi8lite-Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 168
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Lite",
+        "title": "Xiaomi mi 8 Lite черный 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8-lite/Xiaomi-mi8lite-Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 169
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Lite",
+        "title": "Xiaomi mi 8 Lite черный 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8-lite/Xiaomi-mi8lite-Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 170
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Lite",
+        "title": "Xiaomi mi 8 Lite розовый 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8-lite/Xiaomi-mi-8-litepink.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 171
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Lite",
+        "title": "Xiaomi mi 8 Lite розовый 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8-lite/Xiaomi-mi-8-litepink.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 172
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Lite",
+        "title": "Xiaomi mi 8 Lite розовый 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8-lite/Xiaomi-mi-8-litepink.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 173
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 синий 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 174
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 синий 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 175
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 синий 6GB/256GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 176
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 черный 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 177
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 черный 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 178
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 черный 6GB/256GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 179
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 золотой 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 180
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 золотой 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 181
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 золотой 6GB/256GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8gold.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 182
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 белый 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8white.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 183
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 белый 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8white.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 184
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8",
+        "title": "Xiaomi mi 8 белый 6GB/256GB",
+        "price": 43000,
+        "img": "/img/Xiaomi-mi-8/Xiaomi-mi-8white.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 185
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se синий 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 186
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se синий 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 187
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se синий 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 188
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se черный 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 189
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se черный 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 190
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se черный 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 191
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se золотой 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seGOld.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 192
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se золотой 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seGOld.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 193
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se золотой 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seGOld.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 194
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se красный 4GB/64GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seRed.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 195
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se красный 6GB/64GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seRed.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 196
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Xiaomi mi 8 Se красный 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Хаоми-Mi-8se/Хаоми-Mi-8seRed.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 197
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Xiaomi mi 8 Se",
+        "title": "Huawei P 30 Aurora 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Huawei-P30/Huawei-P30-Aurora.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 198
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei P 30",
+        "title": "Huawei P 30 BreathingCrystal 6GB/128GB",
+        "price": 43000,
+        "img": "/img/Huawei-P30/Huawei-P30-BreathingCrystal.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 199
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei P 30 lite",
+        "title": "Huawei P 30 lite PeacockBlue 4GB/128GB",
+        "price": 43000,
+        "img": "/img/Huawei-P30-lite/Huawei-P30-Lite-Peacock-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 200
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei P 30 lite",
+        "title": "Huawei P 30 lite BreathingCrystal 4GB/128GB",
+        "price": 43000,
+        "img": "/img/Huawei-P30-lite/Huawei-P30-Lite-MidnightBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 201
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei P Smart",
+        "title": "Huawei P Smart Black 3GB/32GB",
+        "price": 43000,
+        "img": "/img/HuaweiP-Smart/HuaweiP-Smart-2019-Black.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 202
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei P Smart",
+        "title": "Huawei P Smart  Blue 3GB/32GB",
+        "price": 43000,
+        "img": "/img/HuaweiP-Smart/HuaweiP-Smart-2019-Blue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 203
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei P Smart Z",
+        "title": "Huawei P Smart Z Black 4GB/64GB",
+        "price": 43000,
+        "img": "/img/HuaweiP-SmartZ/HuaweiP-SmartZ-MidnightBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 204
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei Y5",
+        "title": "Huawei Y5 ClassicBlack 1GB/16GB",
+        "price": 43000,
+        "img": "/img/Huawei-y5/HuaweiY5-ClassicBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 205
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei Y5",
+        "title": "Huawei Y5 SapphireBlue 1GB/16GB",
+        "price": 43000,
+        "img": "/img/Huawei-y5/HuaweiY5-SapphireBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 206
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei Y6",
+        "title": "Huawei Y6  ClassicBlack 2GB/32GB",
+        "price": 43000,
+        "img": "/img/Huawei-y6/HuaweiY6-ClassicBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 207
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei Y6",
+        "title": "Huawei Y6  SapphireBlue 2GB/32GB",
+        "price": 43000,
+        "img": "/img/Huawei-y6/HuaweiY6-SapphireBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 208
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei Y7",
+        "title": "Huawei Y7  AuroraBlue 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Huawei-y7/HuaweiY7-AuroraBlue.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 209
+      },
+      "fields": {
+        "category": "Смартфоны",
+        "model": "Huawei Y7",
+        "title": "Huawei Y7 MidnightBlack 3GB/32GB",
+        "price": 43000,
+        "img": "/img/Huawei-y7/HuaweiY7-MidnightBlack.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 210
+      },
+      "fields": {
+        "category": "Наушники",
+        "categoryType": "Беспроводные Наушники",
+        "title": "airpods",
+        "price": 7000,
+        "img": "/img/headphones-3.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 211
+      },
+      "fields": {
+        "category": "Наушники",
+        "categoryType": "Беспроводные Наушники",
+        "title": "Honor am61",
+        "price": 2000,
+        "img": "/img/honor-headphones.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 212
+      },
+      "fields": {
+        "category": "Наушники",
+        "categoryType": "Беспроводные Наушники",
+        "title": "Xiaomi airdrops",
+        "price": 3000,
+        "img": "/img/xiaomi-airdots-orig.png"
+      }
+    },
+    {
+      "sys": {
+        "id": 213
+      },
+      "fields": {
+        "category": "Наушники",
+        "categoryType": "Беспроводные Наушники",
+        "title": "Samsung galaxy buds",
+        "price": 5000,
+        "img": "/img/Samsung-Galaxy-Buds.png"
+      }
+    }, {
+      "sys": {
+        "id": 214
+      },
+      "fields": {
+        "category": "Наушники",
+        "categoryType": "Проводные Наушники",
+        "title": "Sennheiser CX 300",
+        "price": 1500,
+        "img": "/img/headPhones/headPhonesWire/Sennheiser-CX-300-II.png"
+      }
+    }, {
+      "sys": {
+        "id": 215
+      },
+      "fields": {
+        "category": "Наушники",
+        "categoryType": "Проводные Наушники",
+        "title": "Sennheiser CX 200 Street II",
+        "price": 700,
+        "img": "/img/headPhones/headPhonesWire/Sennheiser-CX-200-StreetII.png"
+      }
+    }, {
+      "sys": {
+        "id": 216
+      },
+      "fields": {
+        "category": "Наушники",
+        "categoryType": "Проводные Наушники",
+        "title": "Panasonic RP HJE125",
+        "price": 300,
+        "img": "/img/headPhones/headPhonesWire/Panasonic-RP-HJE125.png"
+      }
+    }, {
+      "sys": {
+        "id": 217
+      },
+      "fields": {
+        "category": "Наушники",
+        "categoryType": "Проводные Наушники",
+        "title": "Sony MDR XB50AP",
+        "price": 1000,
+        "img": "/img/headPhones/headPhonesWire/Sony-MDR-XB50AP.png"
+      }
+    }
+  ]
+}

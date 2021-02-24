@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <title>Косой переулок</title>
+</head>
+
+<body id="body">
+    <header id="header">
+        <script src="/js/header.js"></script>
+    </header>
+    <div class="sidebar-navbar">
+        <script src="/js/sidebar.js"></script>
+    </div>
+
+    <div class="cart-popup">
+        <div class="cart-popup-content">
+            <img src="/img/fa-times.png" alt="" class="fa-times" />
+            <h1 class="cart-popup-header">Корзина</h1>
+            <div class="cart-popup-content-items"></div>
+            <div class="cart-popup-content-footer">
+                <!--  <h3>Итоговая сумма : $ <span class="cart-total">0</span> </h3>
+                <button class="clear-cart">Очистить корзину</button> -->
+                <!-- <button class="confirm-order">Оформить заказ</button> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="slider">
+        <div class="img-slider"><img src="/img/left.png" alt="" /></div>
+        <div class="slider-main">
+            <div class="slider-content __show-slider">
+                <div class="slider-items">
+                    <img class="img-slider-p img-slider-xiaomi" src="/img/Xiaomi-mi-8/Xiaomi-mi-8white.png" alt="" />
+                    <div class="items-info">
+                        <h1>смартфоны Xioami по выгодным ценам</h1>
+                        <a class="btn" href="#">купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-content ">
+                <div class="slider-items">
+                    <img class="img-slider-p img-phone" src="/img/iphone-x/iphone-x.png" alt="" />
+                    <div class="items-info">
+                        <h1>
+                            iPhone X 
+                          никогда не был так доступен
+                        </h1>
+                        <a class="btn" href="#">купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-content ">
+                <div class="slider-items">
+                    <img class="img-slider-p img-headphone" src="/img/headphones-3.png" alt="" />
+                    <div class="items-info">
+                        <h1>Airpods по супер цене 10900</h1>
+                        <a class="btn" href="#">купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-content ">
+                <div class="slider-items">
+                    <img class="img-slider-p img-charger" src="/img/charger-orig-2.png" alt="" />
+                    <div class="items-info">
+                        <h1>
+                            зарядные устройства <br />
+                            по низким ценам
+                        </h1>
+                        <a class="btn" href="#">купить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="img-slider"><img src="/img/rigth.png" alt="" /></div>
+        <div class="slider-toggler">
+            <div class="slider-toggle-item active-toggle"></div>
+            <div class="slider-toggle-item"></div>
+            <div class="slider-toggle-item"></div>
+            <div class="slider-toggle-item"></div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <script src="/js/footer.js"></script>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+    <script>
+        const arrow = [...document.querySelectorAll(".img-slider")];
+        const content = [...document.querySelectorAll(".slider-content")];
+        const main = document.querySelector(".slider-main");
+        const btn = document.querySelectorAll(".btn");
+        const toggleBtn = [...document.querySelectorAll(".slider-toggle-item")];
+        let inter;
+        let deg = 0;
+
+
+        class Slider {
+            translateSlides() {
+                this.translate();
+                window.addEventListener("resize", () => {
+                    this.translate();
+                });
+
+            }
+            translate() {
+                let slideWidth = content[1].clientWidth / 2 + "px"
+                content[0].style.transform = 'translateZ(' + slideWidth + ')';
+                content[1].style.transform = 'rotateY(90deg)' + 'translateZ(' + slideWidth +
+                    ')';
+                content[2].style.transform = 'rotateY(180deg)' + 'translateZ(' + slideWidth +
+                    ')';
+                content[3].style.transform = 'rotateY(-90deg)' + 'translateZ(' + slideWidth +
+                    ')';
+                content.forEach(item => {
+                    if (item.classList.contains('__show-slider')) {
+                        this.rotate(item);
+                    }
+                })
+            }
+
+            getToggleBtns() {
+                inter = setInterval(() => {
+                    this.rigth()
+                }, 6000);
+                arrow[0].addEventListener("click", () => {
+                    this.left();
+                    clearInterval(inter);
+                });
+
+                arrow[1].addEventListener("click", () => {
+                    this.rigth();
+                    clearInterval(inter);
+                });
+
+                toggleBtn.forEach(item => {
+                    item.addEventListener("click", this.showNeededSLide);
+                });
+
+            }
+
+
+            showNeededSLide() {
+                content.forEach(el => {
+                    if (content.indexOf(el) === toggleBtn.indexOf(this)) {
+                        clearInterval(inter);
+                        el.classList.add('__show-slider');
+                        const slider = new Slider;
+                        slider.rotate(el)
+                    } else {
+                        el.classList.remove('__show-slider')
+                    }
+                })
+                toggleBtn.forEach(item => {
+                    if (toggleBtn.indexOf(item) === toggleBtn.indexOf(this)) {
+                        item.classList.add('active-toggle')
+                    } else {
+                        item.classList.remove('active-toggle')
+
+                    }
+                })
+            }
+
+            rotate(el) {
+                main.style.transform = 'translateZ(' + -(content[1].clientWidth / 2) +
+                    "px" + ')' + 'rotateY(-' + content.indexOf(el) * 90 + 'deg)'
+            }
+
+            rigth() {
+                let slider = document.querySelector(".__show-slider");
+                let activeToggle = document.querySelector('.active-toggle');
+                if (slider.nextElementSibling /* || activeToggle.nextElementSibling */) {
+                    this.removeActiveClasses(slider, activeToggle);
+                    slider.nextElementSibling.classList.add("__show-slider");
+                    activeToggle.nextElementSibling.classList.add('active-toggle');
+                    console.log(main.style.transform);
+                    deg -= 90;
+                    this.rotateFigure(deg);
+
+                } else {
+                    this.removeActiveClasses(slider, activeToggle);
+                    content[0].classList.add("__show-slider");
+                    toggleBtn[0].classList.add("active-toggle");
+                    deg = 0;
+                    this.rotateFigure(deg);
+                }
+            }
+
+            left() {
+                let slider = document.querySelector(".__show-slider");
+                let activeToggle = document.querySelector('.active-toggle');
+                if (slider.previousElementSibling) {
+                    this.removeActiveClasses(slider, activeToggle);
+                    slider.previousElementSibling.classList.add("__show-slider");
+                    activeToggle.previousElementSibling.classList.add('active-toggle');
+                    deg += 90;
+                    this.rotateFigure(deg);
+                } else {
+                    this.removeActiveClasses(slider, activeToggle);
+                    toggleBtn[toggleBtn.length - 1].classList.add("active-toggle");
+                    main.lastElementChild.classList.add("__show-slider");
+                    deg = -270;
+                    this.rotateFigure(deg);
+                }
+            }
+            removeActiveClasses(slider, activeToggle) {
+                slider.classList.remove("__show-slider");
+                activeToggle.classList.remove('active-toggle')
+            }
+
+            rotateFigure(deg) {
+                main.style.transform = 'translateZ(' + -(content[1].clientWidth / 2) +
+                    "px" + ')' + 'rotateY(' + deg + 'deg)'
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const slider = new Slider;
+            slider.translateSlides();
+            slider.getToggleBtns();
+        })
+    </script>
+    <script src="js/searcher.js"></script>
+    <script src="js/products.js"></script>
+</body>
+
+</html>

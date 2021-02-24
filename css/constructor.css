@@ -1,0 +1,170 @@
+body {
+  background: #e3eaf4;
+}
+
+#Case-Constructor {
+  height: 100vh;
+}
+
+#Case-Constructor,
+.case-info,
+.main-case-info,
+.choice-stages,
+.stage,
+.stage .img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.case-info,
+.main-case-info {
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.main-case-info {
+  height: 300px;
+}
+
+.main-case-info > h1 {
+  font-size: 46px;
+}
+
+.main-case-info .model:nth-child(2) h2 {
+  font-size: 36px;
+}
+
+.main-case-info span,
+.fa-file-image {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#your-case-view {
+  width: 30%;
+  position: relative;
+}
+
+.constructor-canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 400px;
+  height: 700px;
+}
+
+.main_sidebar,
+.secondary_sidebar_items,
+.back_to_main_content {
+  display: block;
+  transition: all 0.3s linear;
+}
+
+.back_to_main_content {
+  width: 100%;
+  height: 50px;
+}
+
+.back_to_main_content_container {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.back_to_main_content_container h1 {
+  position: absolute;
+  width: 120px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.secondary_sidebar_items {
+  top: 25%;
+}
+
+/* .sidebar_content .secondary_sidebar_items:nth-child(2) {
+  transform: translateY(-100%);
+} */
+
+.model,
+.price,
+.stage {
+  display: flex;
+  flex-direction: column;
+}
+
+.empty {
+  height: 150px;
+}
+
+.choice-stages img {
+  height: 40px;
+}
+
+.sidebar-constructor {
+  width: 20%;
+}
+
+.choice-stages {
+  display: flex;
+}
+
+.stage .img {
+  justify-content: center;
+}
+
+.fa-file-image {
+  align-self: center;
+}
+
+.main-stage-phone {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.stage-phone-container {
+  transition: all 0.3s linear;
+  /* transform: translateX(-100%); */
+}
+
+.stage-phone-container,
+.stage-phone-container .stage-construct {
+  width: 100%;
+  height: 100%;
+}
+
+/* .stage-phone-container .stage-phone {
+  position: absolute;
+} */
+
+.stage-phone-container .stage-construct:nth-child(2) {
+  /* transform: translateX(100%); */
+  transform: translateY(-100%) translateX(100%);
+}
+
+.stage-phone-container .stage-construct:nth-child(3) {
+  transform: translateY(-200%) translateX(200%);
+}
+
+.back_to_main_content {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}

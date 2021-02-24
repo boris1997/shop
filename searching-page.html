@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.1/css/all.css">
+    <link rel="stylesheet" href="css/icofont/icofont.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products/products.css" />
+    <link rel="stylesheet" href="css/products/main-products-category/main-products-category.css" />
+    <link rel="stylesheet" href="css/products/main-products-category/main-products-items/main-products-items.css" />
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>Косой переулок</title>
+</head>
+
+<body id="body">
+    <header id="header">
+        <script src="/js/header.js"></script>
+    </header>
+
+    <div class="sidebar-navbar">
+        <script src="/js/sidebar.js"></script>
+    </div>
+    <div class="cart-popup">
+        <div class="cart-popup-content">
+            <img src="/img/fa-times.png" alt="" class="fa-times" />
+            <h1 class="cart-popup-header">Корзина</h1>
+            <div class="cart-popup-content-items">
+
+            </div>
+            <div class="cart-popup-content-footer">
+                <!-- <h3>Итоговая сумма : $ <span class="cart-total">0</span> </h3>
+                <button class="clear-cart">Очистить корзину</button> -->
+            </div>
+
+        </div>
+    </div>
+
+    <div id="__Products">
+        <div class="container">
+            <div class="path-items">
+                <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+                <h2 class="__pathProductsItems"><a href="phones.html">Результаты поиска</a> </h2>
+                <h2><a href=></a></h2>
+            </div>
+            <div class="__main-products-container">
+            </div>
+            <div class="pageContainer"></div>
+        </div>
+    </div>
+
+
+    <footer id="footer">
+        <script src="/js/footer.js"></script>
+    </footer>
+    <script src="js/body.js">
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/searcher.js"></script>
+    <script src="js/products.js"></script>
+    <script>
+        let lookedForProducts = '';
+        let filteredProducts = [];
+        let i = 0;
+        let m = 0;
+        const container = document.querySelectorAll('.container');
+        const itemsContainer = document.querySelector('.__main-products-container');
+        const pageContainer = document.querySelector('.pageContainer');
+        class Filter {
+            displayFoundedProducts(data) {
+                const filteredData = data.every(item => {
+                    console.log(item.title, lookedForProducts )
+                    return item.title.toLowerCase() != lookedForProducts.toLowerCase();
+                })
+                data.forEach(item => {
+                    let insensitiveItem = item.title.toLowerCase();
+                    let category = item.category.toLowerCase();
+                    let insensitiveProducts = lookedForProducts.toLowerCase();
+                    let itemTitle = insensitiveItem.split("").reverse().join("").toLowerCase();
+                    let newlookedForProducts = insensitiveProducts.split("").reverse().join("");
+                    this.firstLoop(item, insensitiveItem, category, insensitiveProducts);
+                    if (filteredData === true) {
+                        console.log('ok')
+                        this.secondLoop(item, insensitiveItem, insensitiveProducts, itemTitle,
+                            newlookedForProducts)
+                    }
+                })
+                /*       let debug = [];
+                      filteredProducts = filteredProducts.filter((item, index) => {
+                          debug.push({
+                              item,
+                              index,
+                              indexOf: filteredProducts.indexOf(item)
+                          })
+                          return index === filteredProducts.indexOf(item)
+                      })
+                      console.table(debug) */
+                filteredProducts = filteredProducts.filter((item, pos) => filteredProducts.indexOf(
+                    item) === pos);
+                this.createMultiplePages()
+
+            }
+
+            firstLoop(item, insensitiveProducts, category, insensitiveItem) {
+                /* await this.firstLoopCondition(item, insensitiveProducts, insensitiveItem); */
+
+                if (insensitiveItem.includes(insensitiveProducts) || insensitiveItem.includes(category.slice(0,
+                    5))) {
+
+                    filteredProducts = [...filteredProducts, item];
+                }
+                /* console.log(filteredProducts) */
+                /* this.setDomItems() */
+
+            }
+
+            /*  firstLoopCondition(item, insensitiveProducts, insensitiveItem) {
+             } */
+
+            secondLoop(item, insensitiveItem, insensitiveProducts, itemTitle, newlookedForProducts) {
+
+                if (lookedForProducts.length < 15) {
+                    this.secondLoopFilterUpgrade(0, 8, 4, item, insensitiveItem, insensitiveProducts, itemTitle,
+                        newlookedForProducts)
+                }
+                if (lookedForProducts.length > 15 && lookedForProducts.length < 20) {
+                    this.secondLoopFilterUpgrade(0, 11, 4, item, insensitiveItem, insensitiveProducts, itemTitle,
+                        newlookedForProducts)
+                }
+                if (lookedForProducts.length > 20) {
+                    this.secondLoopFilterUpgrade(0, 17, 4, item, insensitiveItem, insensitiveProducts, itemTitle,
+                        newlookedForProducts)
+                }
+            }
+
+            secondLoopFilterUpgrade(fi, se, th, item, insensitiveItem, insensitiveProducts, itemTitle,
+                newlookedForProducts) {
+                if (insensitiveItem.includes(insensitiveProducts.slice(fi, se)) &&
+                    itemTitle.includes(newlookedForProducts.slice(fi, th))) {
+                    /* console.log(item) */
+                    filteredProducts = [...filteredProducts, item]
+                    /*  this.setDomItems() */
+                }
+
+
+            }
+
+
+            createMultiplePages() {
+                let twItemsArr = [];
+                console.log('ok')
+                i++;
+                console.log(filteredProducts)
+                if (filteredProducts.length > 12) {
+                    filteredProducts = filteredProducts.filter(item => {
+                        if (filteredProducts.indexOf(item) > 11) {
+                            return /* twItemsArr = [...twItemsArr, item]  */ item
+                        } else {
+                            twItemsArr = [...twItemsArr, item];
+                        }
+                    })
+
+                } else if (filteredProducts.length <= 12) {
+                    filteredProducts.forEach(item => {
+                        twItemsArr = [...twItemsArr, item]
+                    })
+                    filteredProducts = filteredProducts.filter(item => item != item)
+                }
+                this.setPages(twItemsArr, i)
+                if (filteredProducts.length > 0) {
+                    setTimeout(() => this.createMultiplePages(), 1)
+                }
+            }
+
+            setPages(twItemsArr, i) {
+                const iphoneItems = document.createElement('div');
+                iphoneItems.dataset.id = i;
+                iphoneItems.classList.add('__main-products-items');
+                i === 1 && iphoneItems.classList.add('grid')
+                console.log(twItemsArr)
+                let result = ''
+                twItemsArr.forEach(e => {
+                    result += `
+                  
+                    <div class="__main-item-product ">
+                        <a href="#">
+                            <img src=${e.img} alt="">
+                            <h2>${e.title}</h2>
+                            </a>
+                            <div class="order">
+                                        <div class="addToBasket">
+                                            <span class="price">${e.price} RUB</span>
+                                            <button class="bag-btn" data-id=${e.id}>
+                                                <i class="fas fa-cart-plus fa-2x" ></i>
+                                                </button>
+                                                </div>
+                                                <a class="fast-purchase btn" data-id=${e.id
+                        } href="">купить в 1 клик</a>
+                                                </div>
+                                                
+                                                </div>
+                                          
+                                                `
+                })
+
+                console.log(result)
+                iphoneItems.innerHTML = result;
+                itemsContainer.appendChild(iphoneItems);
+
+                this.createNumberPages(twItemsArr, i)
+            }
+
+
+
+            createNumberPages(twItemsArr, i) {
+                const pageNumber = document.createElement('span');
+                pageNumber.classList.add('pageNumber');
+                pageNumber.textContent = i;
+                pageNumber.dataset.id = i;
+                pageContainer.appendChild(pageNumber);
+                if (twItemsArr.length < 12 && itemsContainer.children.length <= 1) {
+                    pageContainer.removeChild(pageNumber)
+                }
+
+                if (filteredProducts.length === 0) {
+                    const ui = new UI;
+                    ui.getCartButtons()
+                    console.log(ui)
+                    if (pageContainer.children.length != 0) {
+                        console.log(pageContainer.children.length)
+                        console.log(filteredProducts)
+                        const DOMpages = [...document.querySelectorAll('.__main-products-items')]
+                        console.log(DOMpages)
+                        DOMpages.forEach(item => {
+                            if (DOMpages.indexOf(item) === 0) {
+                                item.classList.add('grid')
+                            }
+                        })
+                        this.getTogglers(DOMpages);
+                    }
+                }
+            }
+
+
+            getTogglers(DOMpages) {
+                const pageDOMNumbers = [...document.querySelectorAll('.pageNumber')]
+                this.createArrowsTogglers(pageDOMNumbers, DOMpages)
+                console.log(pageDOMNumbers.length)
+                /* pageDOMNumbers.forEach(item => item.onclick = this.toggle) */
+                pageDOMNumbers.map((item, i) => {
+                    if (i === 0) {
+                        item.classList.add('Number-active')
+                    }
+                    if (pageDOMNumbers.length <= 6) {
+                        console.log(i)
+                        console.log('object')
+                        item.classList.add('vissible')
+                        this.createToggleEvent(pageDOMNumbers, i, DOMpages, item)
+
+                        /*  this.styleNumber(pageDOMNumbers, item) */
+                    } else {
+                        this.createAlternativeTogglerContainer(i, item, pageDOMNumbers);
+                        this.createToggleEvent(pageDOMNumbers, i, DOMpages, item)
+
+                    }
+
+                })
+
+            }
+
+            createToggleEvent(pageDOMNumbers, i, DOMpages, item) {
+                pageDOMNumbers[i].addEventListener('click', () => {
+                    window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"})
+                    DOMpages.map((Element, i) => {
+                        m = pageDOMNumbers.indexOf(item);
+                        item.classList.add('Number-active')
+                        if (DOMpages.indexOf(Element) != pageDOMNumbers.indexOf(item)) {
+                            this.removeActiveItem(Element, pageDOMNumbers[i])
+
+
+                        } else {
+                            Element.classList.add('grid');
+                            if (pageDOMNumbers.length > 6) {
+                                this.toggle(i, item, pageDOMNumbers, DOMpages)
+                            }
+                        }
+                    })
+                })
+            }
+
+            toggle(i, item, pageDOMNumbers, DOMpages) {
+                /*  const bagBtn = [...document.querySelectorAll('.bag-btn')];
+                 const header = document.getElementsByTagName('header')[0]; */
+                console.log(i)
+
+                {
+
+                    if (i === 0) {
+                        console.log('ok')
+                        this.onFirstElementToggleContent(pageDOMNumbers)
+                    }
+
+                    if (i === 2) {
+                        this.changeNumberTogglers(pageDOMNumbers[i + 2], pageDOMNumbers[i - 1])
+                        this.removeDots(pageDOMNumbers[i].previousElementSibling.previousElementSibling)
+                    }
+                    if (i === 3) {
+                        console.log('ok')
+                        console.log(i)
+                        this.createDots(pageDOMNumbers, pageDOMNumbers[i - 2]);
+                        this.changeNumberTogglers(pageDOMNumbers[i - 2], pageDOMNumbers[i + 1])
+                    }
+
+                    if (i > 3 && i != pageDOMNumbers.length - 2 && i != pageDOMNumbers.length - 1) {
+                        this.changeNumberTogglers(pageDOMNumbers[i - 2], pageDOMNumbers[i + 1])
+                    }
+                    if (i === pageDOMNumbers.length - 3) {
+                        this.addNumberVisibility(pageDOMNumbers[i + 1]);
+                        this.removeDots(pageDOMNumbers[i].nextElementSibling.nextElementSibling)
+                        console.log(item);
+                    }
+                    if (i === pageDOMNumbers.length - 1) {
+                        console.log(i)
+                        this.onLastElementToggleContent(pageDOMNumbers)
+                    }
+
+                    if (i === pageDOMNumbers.length - 4 && !pageDOMNumbers[pageDOMNumbers.length - 4].previousElementSibling.classList.contains('vissible')) {
+                        console.log('ok')
+                        this.createDots(pageDOMNumbers, pageDOMNumbers[i + 3]);
+                        this.changeNumberTogglers(pageDOMNumbers[i + 2], pageDOMNumbers[i - 1])
+                    }
+
+                    if (i < pageDOMNumbers.length - 4 && i > 2) {
+                        if (!pageDOMNumbers[i].previousElementSibling.classList.contains('vissible')) {
+                            this.changeNumberTogglers(pageDOMNumbers[i + 2], pageDOMNumbers[i - 1])
+                        }
+                    }
+                }
+            }
+
+            createAlternativeTogglerContainer(i, item, pageDOMNumbers) {
+                if (i < 4) {
+                    this.addNumberVisibility(item)
+                } else if (i === pageDOMNumbers.length - 1) {
+                    this.addNumberVisibility(item)
+                    this.createDots(pageDOMNumbers, item)
+
+                }
+            }
+
+            removeActiveItem(Element, item) {
+                Element.classList.remove('grid');
+                item.classList.remove('Number-active')
+            }
+
+            createDots(pageDOMNumbers, Element) {
+                console.log(Element)
+                const dots = document.createElement('span');
+                dots.classList.add('dots');
+                dots.textContent = '...';
+                this.appendDots(pageDOMNumbers, Element, dots)
+            }
+            appendDots(pageDOMNumbers, Element, dots) {
+                console.log(Element)
+                if (!Element.previousElementSibling.classList.contains('dots') && !Element.nextElementSibling.classList.contains('dots')) {
+                    pageContainer.insertBefore(dots, Element)
+                }
+                /*    console.log(Element) */
+            }
+
+            removeDots(item) {
+                /*  console.log(item) */
+                if (item.classList.contains('dots')) {
+                    item.remove()
+                }
+            }
+
+            changeNumberTogglers(prev, next) {
+                this.removeNumberVisibility(prev)
+                this.addNumberVisibility(next)
+            }
+
+            removeNumberVisibility(item) {
+                item.classList.remove('vissible')
+            }
+
+            addNumberVisibility(item) {
+                item.classList.add('vissible')
+            }
+
+
+            onFirstElementToggleContent(pageDOMNumbers) {
+                pageDOMNumbers.map((item, i) => {
+                    /* console.log(i) */
+                    if (i > 3 && i < pageDOMNumbers.length - 1) {
+                        this.removeNumberVisibility(item);
+                        i === pageDOMNumbers.length - 2, !pageDOMNumbers[pageDOMNumbers.length - 1].previousElementSibling.classList.contains('dots') && this.createDots(pageDOMNumbers, pageDOMNumbers[pageDOMNumbers.length - 2].nextElementSibling)
+                    }
+                    if (i < 4 || i === pageDOMNumbers.length - 1) {
+                        console.log(i)
+                        this.addNumberVisibility(item)
+                        this.removeDots(pageDOMNumbers[0].nextElementSibling)
+
+                    }
+                })
+            }
+
+
+            onLastElementToggleContent(pageDOMNumbers) {
+                pageDOMNumbers.map((item, i) => {
+                    if (i > 0 && pageDOMNumbers.length - 4) {
+                        i === 3, !pageDOMNumbers[0].nextElementSibling.classList.contains('dots') && this.createDots(pageDOMNumbers, pageDOMNumbers[0].nextElementSibling)
+                        this.removeNumberVisibility(item);
+                    }
+                    if (i > pageDOMNumbers.length - 5 && i < pageDOMNumbers.length) {
+                        this.addNumberVisibility(item)
+                        this.removeDots(pageDOMNumbers[pageDOMNumbers.length - 1].previousElementSibling)
+                    }
+                })
+            }
+
+
+            createArrowsTogglers(pageDOMNumbers, DOMpages) {
+                const leftArrow = document.createElement('span');
+                leftArrow.classList.add('ArrowToggle');
+                leftArrow.classList.add('unactive');
+                leftArrow.innerHTML = '<i class="icofont-thin-left"></i>'
+                const rigthArrow = document.createElement('span');
+                rigthArrow.classList.add('ArrowToggle');
+                rigthArrow.innerHTML = '<i class="icofont-thin-right"></i>'
+                pageContainer.insertBefore(leftArrow, pageDOMNumbers[0]);
+                pageContainer.insertBefore(rigthArrow, pageDOMNumbers.lastChild);
+                /*  if (m < DOMpages.length - 1) {
+                     console.log(rigthArrow)
+                     this.activeRigthArrow(rigthArrow);
+                 } */
+                rigthArrow.addEventListener('click', () => {
+                    const number_active = document.querySelector('.Number-active')
+                    const grid = document.querySelector('.grid')
+                    if (number_active.nextElementSibling.classList.contains('pageNumber')) {
+
+                        number_active.classList.remove('Number-active')
+                        grid.classList.remove('grid')
+                        number_active.nextElementSibling.classList.add('Number-active')
+                        grid.nextElementSibling.classList.add('grid')
+                        m++;
+                        console.log(m)
+                        if (m === DOMpages.length) {
+                            this.diactiveRigthArrow(rigthArrow)
+                        }
+                        if (m > 1) {
+                            this.activeLeftArrow(leftArrow)
+                        }
+                        this.toggle(m, number_active.nextElementSibling, pageDOMNumbers, DOMpages)
+
+
+
+                    }
+                });
+                leftArrow.addEventListener('click', () => {
+                    const number_active = document.querySelector('.Number-active')
+                    const grid = document.querySelector('.grid')
+                    if (number_active.previousElementSibling.classList.contains('pageNumber')) {
+                        number_active.classList.remove('Number-active')
+                        grid.classList.remove('grid')
+                        number_active.previousElementSibling.classList.add('Number-active')
+                        grid.previousElementSibling.classList.add('grid')
+                        m--;
+                        if (m === 0) {
+                            this.diactiveLeftArrow(leftArrow);
+                        }
+                        if (m < DOMpages.length) {
+                            this.activeRigthArrow(rigthArrow)
+                        }
+
+                        console.log(number_active.nextElementSibling)
+                        console.log(m)
+                        this.toggle(m, number_active.previousElementSibling, pageDOMNumbers, DOMpages)
+
+
+                    }
+                });
+            }
+
+            activeRigthArrow(rigthArrow) {
+                rigthArrow.classList.remove('unactive')
+            }
+
+            diactiveRigthArrow(rigthArrow) {
+                rigthArrow.classList.add('unactive')
+            }
+
+            activeLeftArrow(leftArrow) {
+                leftArrow.classList.remove('unactive')
+            }
+
+            diactiveLeftArrow(leftArrow) {
+                leftArrow.classList.add('unactive')
+            }
+
+
+
+
+
+        }
+
+
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchfilter = new searchFilter;
+            const filter = new Filter;
+            const ui = new UI;
+            /* const store = new Store; */
+
+            searchfilter.getAllProducts().then(data => {
+                StoreFilter.getInputValue(),
+                    Store.saveProducts(data),
+                    filter.displayFoundedProducts(data)
+
+                /* console.log(data) */
+            }) /* .then(ui.getCartButtons()) */
+        })
+    </script>
+
+</body>
+
+</html>
+

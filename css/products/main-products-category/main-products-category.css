@@ -1,0 +1,27 @@
+.path-items .__pathProductsItems:nth-child(3) {
+    position: relative;
+}
+
+.path-items .__pathProductsItems:nth-child(3)::before {
+    content: '/';
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    font-weight: bold;
+    right: 60px;
+}
+
+.path-items .__pathProductsItems.__Samsung:nth-child(3)::before {
+    right: 76px;
+}
+.path-items .__pathProductsItems.__Huawei:nth-child(3)::before {
+    right: 61px;
+}
+
+.path-items .__pathProductsItems.__Xiaomi:nth-child(3)::before {
+    right: 55px;
+}
+.path-items .__pathProductsItems.__headPhones:nth-child(3)::before {
+    left: -12px;
+}
+
