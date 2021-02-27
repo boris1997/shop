@@ -1014,6 +1014,16 @@ footer {
   } */
 
 }
+@media screen and (max-width: 900px) {
+    .slider-items .items-info .btn {
+      left: 150px;
+
+    }
+        .slider-items .items-info h1{
+              padding-left: 150px;
+        }
+}
+
 
 @media screen and (max-width: 768px) {
 

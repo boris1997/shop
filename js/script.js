@@ -14,7 +14,7 @@ const sidebarContent = document.querySelector(".sidebar_content");
 const sidebarMainLi = document.querySelectorAll(".sidebar_main_li");
 const secondarySidebarItems = document.querySelectorAll(".secondary_sidebar_items");
 const closeSidebar = document.querySelector(".fa-times-sidebar");
-console.log(closeSidebar)
+
 const back = document.querySelector(".back");
 
 const arr = Array.from(items);
@@ -28,7 +28,6 @@ hNav.forEach(item => item.addEventListener("mouseover", opac3));
 hNav.forEach(item => item.addEventListener("mouseout", Reverseopac3));
 
 function opac2() {
-  console.log(footerItem.indexOf(this));
   footerItem.find(item => {
     if (footerItem.indexOf(item) != footerItem.indexOf(this)) {
       item.style.opacity = 0.5;
@@ -37,7 +36,6 @@ function opac2() {
 }
 
 function Reverseopac2() {
-  console.log(footerItem.indexOf(this));
   footerItem.find(item => {
     if (footerItem.indexOf(item) != footerItem.indexOf(this)) {
       item.style.opacity = 1;
@@ -46,7 +44,6 @@ function Reverseopac2() {
 }
 
 function opac3() {
-  console.log(this);
   hNav.find(item => {
     if (hNav.indexOf(this) != hNav.indexOf(item)) {
       item.style.opacity = 0.7;
@@ -55,7 +52,6 @@ function opac3() {
 }
 
 function Reverseopac3() {
-  console.log(footerItem.indexOf(this));
   hNav.find(item => {
     if (hNav.indexOf(item) != hNav.indexOf(this)) {
       item.style.opacity = 1;
@@ -84,7 +80,6 @@ function opacReverse() {
 
 function manipulation(arrayMain, arrSecond, LexicalThis, visibility) {
   arrayMain[arrSecond.indexOf(LexicalThis)].style.visibility = visibility;
-  console.log(arrayMain[arrSecond.indexOf(LexicalThis)]);
 }
 
 function show() {
@@ -135,13 +130,11 @@ function vanish3() {
 class Toggler {
 
   ToggleRotation() {
-    console.log(navbarToggler)
     navbarToggler.addEventListener("mouseover", this.rotate);
     navbarToggler.addEventListener("mouseout", this.rotateReverse);
   }
 
   rotate() {
-    console.log(this)
     this.children[0].style.transform = "rotate(45deg)" + "translateY(16px)";
     this.children[1].style.display = "none";
     this.children[2].style.transform = "rotate(-45deg)" + "translateY(-16px)";
@@ -183,7 +176,6 @@ class Toggler {
   }
 
   translateItems(item) {
-    console.log(item)
     secondarySidebarItems.forEach(e => {
       if (e.dataset.target === item.dataset.target && !e.classList.contains('appear')) {
         sidebarContent.style.transform = 'translateX(-100%)';
@@ -191,7 +183,6 @@ class Toggler {
         back.style.visibility = 'visible';
         back.style.opacity = '1';
       }
-      console.log()
       back.addEventListener('click', () => {
         sidebarContent.style.transform = 'translateX(0)';
         e.classList.remove('appear');
@@ -200,9 +191,7 @@ class Toggler {
   }
 
   sidebarResize() {
-    console.log(window.innerWidth)
     window.addEventListener('resize', () => {
-      console.log(this)
       if (window.innerWidth > 1024) {
         this.hide();
       }

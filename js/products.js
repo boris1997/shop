@@ -22,22 +22,15 @@ class UI {
   getCartButtons() {
     const addToCtBtn = [...document.querySelectorAll(".bag-btn")];
     cartBtnDOM = addToCtBtn;
-    console.log(addToCtBtn);
     addToCtBtn.forEach(btn => {
-      /* let cartId = cart.map(item => item.id) */
       let id = btn.dataset.id;
-      /* console.log(iphoneItems)
       const contPrItems = document.getElementById('__Products')
-      console.log(contPrItems) */
       id = parseFloat(id);
       let cartId = cart.find(item => item.id === id);
-      /*  console.log(cartId); */
       if (cartId) {
         btn.disabled = true;
         btn.innerHTML = `<i class="far fa-check-circle fa-2x"></i>`;
       }
-      /*       console.log(btn); */
-      /* btn.find(item => item.dataset.id === ) */
 
       btn.addEventListener("click", e => {
         btn.disabled = true;
@@ -52,7 +45,6 @@ class UI {
         cart = [...cart, cartItem];
         Store.saveCart();
         this.cartLogic();
-        console.log(cart);
       });
     });
   }
@@ -70,7 +62,6 @@ class UI {
       cartDOMheader.textContent = "Корзина";
       cartDOMCont.style.transition = "all 0.5s ease-in-out";
       cartDOMCont.classList.remove("empty-cart");
-      console.log(cartDOMitems.children.length);
     } else {
       this.changeTextContent();
     }
@@ -125,7 +116,6 @@ class UI {
   setCartItems() {
     /* cartDOMfooter. */
 
-    console.log(cart);
 
     Store.saveCart();
     let result = "";
@@ -146,24 +136,18 @@ class UI {
                       </div>
                   </div>
         `;
-      /* if (e.id === 200) { */
-      /* 
-      console.log(cartPopupItem); */
       /* } */
     });
     cartDOMitems.innerHTML = result;
     const cartPopupItem = [...document.querySelectorAll(".cart-popup-item")];
     cartPopupItem.forEach(item => {
-      console.log(item)
       /* console.log(item.firstElementChild) */
       if (item.dataset.id > 196) {
         item.firstElementChild.style.height = "90px";
       }
     });
-    console.log(cartDOMitems);
     /*   console.log(result) */
 
-    console.log();
   }
 
   setCartTotal() {
@@ -213,7 +197,6 @@ class UI {
         containerSum.previousElementSibling.remove();
       }
     }
-    console.log(containerSum);
 
     if (resultP < 1) {
       totalSumCont.removeChild(containerSum);
@@ -222,13 +205,11 @@ class UI {
 
   manipulateDOMitems() {
     cartDOMCont.addEventListener("click", e => {
-      console.log(e.target);
       if (e.target.classList.contains("remove-item")) {
         let remove = e.target;
 
         let id = remove.dataset.id;
         id = parseFloat(id);
-        console.log(cart);
         this.removeItem(id);
         if (cart.length === 0) {
           this.closeCart();
@@ -252,14 +233,12 @@ class UI {
       }
       if (e.target.classList.contains("fa-chevron-up")) {
         let incrItem = e.target;
-        /*   console.log(cartBtnDOM)
-          console.log(cart) */
         cart.find(item => {
           let id = incrItem.dataset.id;
           id = parseFloat(id);
           if (item.id === id) {
             (item.amount += 1),
-            (incrItem.nextElementSibling.textContent = item.amount);
+              (incrItem.nextElementSibling.textContent = item.amount);
           }
         });
 
@@ -268,7 +247,6 @@ class UI {
       }
       if (e.target.classList.contains("fa-chevron-down")) {
         let decItem = e.target;
-        console.log(decItem);
         let id = decItem.dataset.id;
         id = parseFloat(id);
         cart.find(item => {
@@ -283,8 +261,6 @@ class UI {
                 this.deleteCartFooter();
                 this.removeTransition();
                 this.changeTextContent();
-                /* this.changeHeader() */
-                console.log(cart);
               }
             }
           }
@@ -313,7 +289,6 @@ class UI {
     cart = cart.filter(item => item.id != id);
     Store.saveCart();
     this.inableDOMbtn(id);
-    console.log(cart);
     this.setCartItems();
     this.setCartTotal();
   }

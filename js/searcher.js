@@ -2,7 +2,6 @@ let productInputValue;
 const openEngineBtn = document.querySelector(".search-icon");
 const navItemsContainer = document.querySelector(".nav-items");
 const navItems = document.querySelector(".items");
-console.log(navItems)
 class Searcher {
     getSearchBtn() {
         openEngineBtn.addEventListener("click", e => {
@@ -37,7 +36,6 @@ class Searcher {
     }
 
     getSearchInput() {
-        console.log(navItemsContainer)
         /*  const input = document.querySelector('.input-search') */
         body.addEventListener('click', e => {
             if (e.target.classList.contains('search-products')) {
@@ -58,7 +56,6 @@ class Searcher {
     searchProduct() {
         const searchInput = document.querySelector('.input-search')
         productInputValue = searchInput.value
-        console.log(productInputValue)
         StoreFilter.saveInputValue(productInputValue)
         /* this.displayFoundedProducts(productInputValue) */
     }
@@ -106,8 +103,7 @@ class StoreFilter {
 
     static getInputValue() {
         return (
-            (lookedForProducts = JSON.parse(localStorage.getItem("searchedProduct"))),
-            console.log(lookedForProducts)
+            (lookedForProducts = JSON.parse(localStorage.getItem("searchedProduct")))
         );
     }
 
